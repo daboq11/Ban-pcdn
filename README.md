@@ -1,4 +1,4 @@
-拦截部分PCDN 可在Adguadrd home 使用
+拦截部分PCDN b站、小红薯、某Q.....。可在Adguadrd home 使用
 
 秋风规则订阅 https://script.cx.ms/awavenue/AWAvenue-Ads-Rule-Adguard.txt
 
