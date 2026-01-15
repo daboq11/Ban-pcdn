@@ -1,6 +1,6 @@
 #b站禁止pcdn, 
 #upos-sz 这个最好
-#自建 CDN cn-****-dx-v  upos卡的话，解除自建cdn屏蔽
+#b站自建（ CDN cn-****-dx-v ）， upos卡的话，解除自建cdn屏蔽
 ||*pcdn*.biliapi.net^
 ||mcdn.bilivideo.com^
 ||mcdn.bilivideo.cn^
@@ -84,4 +84,5 @@
 @@||so.xiaohongshu.com^
 @@||live-room.xiaohongshu.com^
 ||*.xiaohongshu.com^
+
 ||*.redbascket.com^
