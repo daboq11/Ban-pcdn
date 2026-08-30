@@ -107,6 +107,12 @@
 # 抖音/字节
 ||hypercachenode.com^
 ||pull-hs-f5-hot.flive.douyincdn.com
+||douyinliving.com^
+||flive.douyincdn.com^
+||pull-flv-l1.douyincdn.com^
+||pull-stream.douyinliving.com^
+/^.*-pcdn-.*\.douyincdn\.com$/
+/^.*p2p.*\.douyincdn\.com$/
 # TCL
 ||pis-cnc-pcdn.cp31.ott.cibntv.net^
 # 疑似p2p cdn文件
