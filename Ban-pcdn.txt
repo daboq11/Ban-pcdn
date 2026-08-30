@@ -21,13 +21,34 @@
 ||*.xiaohongshu.com^
 ||*.redbascket.com^
 #b站禁止pcdn, 
-||*pcdn*.biliapi.net^
+||bilivideo.cn^
+||bilivideo.com^
+||szbdyd.com^
+||v1d.szbdyd.com^
 ||mcdn.bilivideo.com^
 ||mcdn.bilivideo.cn^
-||*.mcdn.bilivideo.cn^
-||*.edge.mountaintoys.cn^
-||cn-*.bilivideo.com^
-||stun*.chat.bilibili.com^
+||cn-bilivideo.com^
+||edge.mountaintoys.cn^
+# PCDN Tracker / 控制域名 (含通配符与正则)
+||biliapi.net^
+||ks-sh-tracker-02.biliapi.net^
+/.*-pcdn-.*\.biliapi\.net$/
+/.*pcdn.*\.biliapi\.net$/
+# P2P / STUN 相关
+/^stun.*\.chat\.bilibili\.com$/
+/^.*-p2p-.*\.chat\.bilibili\.com$/
+
+# B 站 PCDN Tracker IP
+||81.69.192.254^
+||159.75.113.64^
+||82.156.104.30^
+||139.155.176.138^
+||42.192.67.56^
+||159.75.138.193^
+||82.156.104.41^
+||139.155.7.96^
+||[2402:4e00:1401:cd03:0:9824:892b:3332]^
+||[2402:4e00:1401:cd03:0:9824:888e:36c2]^
 # China PCDN 域名列表
 # 斗鱼
 ||stun.douyucdn.cn^
