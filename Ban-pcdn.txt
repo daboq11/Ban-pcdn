@@ -37,7 +37,6 @@
 # P2P / STUN 相关
 /^stun.*\.chat\.bilibili\.com$/
 /^.*-p2p-.*\.chat\.bilibili\.com$/
-
 # B 站 PCDN Tracker IP
 ||81.69.192.254^
 ||159.75.113.64^
