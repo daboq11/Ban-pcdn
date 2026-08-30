@@ -20,23 +20,14 @@
 @@||live-room.xiaohongshu.com^
 ||*.xiaohongshu.com^
 ||*.redbascket.com^
-#b站禁止pcdn, 
-||bilivideo.cn^
-||bilivideo.com^
-||szbdyd.com^
-||v1d.szbdyd.com^
+#b站禁止pcdn
+||*pcdn*.biliapi.net^
 ||mcdn.bilivideo.com^
 ||mcdn.bilivideo.cn^
-||cn-bilivideo.com^
-||edge.mountaintoys.cn^
-# PCDN Tracker / 控制域名 (含通配符与正则)
-||biliapi.net^
-||ks-sh-tracker-02.biliapi.net^
-/.*-pcdn-.*\.biliapi\.net$/
-/.*pcdn.*\.biliapi\.net$/
-# P2P / STUN 相关
-/^stun.*\.chat\.bilibili\.com$/
-/^.*-p2p-.*\.chat\.bilibili\.com$/
+||*.mcdn.bilivideo.cn^
+||*.edge.mountaintoys.cn^
+||cn-*.bilivideo.com^
+||stun*.chat.bilibili.com^ 
 # B 站 PCDN Tracker IP
 ||81.69.192.254^
 ||159.75.113.64^
